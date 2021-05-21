@@ -1,0 +1,80 @@
+.review {
+  position: relative;
+  min-height: 457px;
+}
+
+.review__background {
+  width: 350px;
+  height: 457px;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.review__title {
+  font-size: 53px;
+  line-height: 57px;
+  font-weight: bold;
+  padding-top: 70px;
+  margin-top: 0;
+  text-align: start;
+  margin-left: 172px;
+}
+
+.review__container-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.review__button {
+  height: 52px;
+  width: 174px;
+  margin-top: 37px;
+}
+
+.review__text {
+  display: block;
+  font-size: 17px;
+  line-height: 30px;
+  margin-left: 175px;
+  margin-top: 0;
+  width: 788px;
+  text-align: start;
+  color: #444444;
+  margin-bottom: 35px;
+}
+
+.review__container-author {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.review__container-arrow {
+  padding-top: 13px;
+}
+
+.review__arrow-left {
+  margin-right: 31px;
+}
+
+.review__container--bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 175px;
+  width: 855px;
+}
+
+.review::after {
+  content: "";
+  position: absolute;
+  width: 1050px;
+  height: 27px;
+  background-image: url(../images/src/zigzag-separator.svg);
+  background-repeat: no-repeat;
+  margin-top: 162px;
+  left: 0;
+}

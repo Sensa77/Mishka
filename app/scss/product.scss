@@ -79,3 +79,14 @@
   height: 52px;
   margin-left: 176px;
 }
+
+.product::after {
+  content: "";
+  position: absolute;
+  width: 1050px;
+  height: 27px;
+  background-image: url(../images/src/zigzag-separator.svg);
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  left: 0;
+}
