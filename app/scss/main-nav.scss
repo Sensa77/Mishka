@@ -42,6 +42,10 @@
   }
 }
 
+.site-list__search {
+  fill: #d3d2d2;
+}
+
 .site-list__item:not(:last-child)::after {
   content: "";
   position: absolute;
@@ -77,4 +81,31 @@
 
 .site-list__item a {
   color: #000;
+}
+
+.site-list__item a:hover,
+.site-list__item a:focus {
+  color: $hoverText;
+}
+
+.site-list__item a:active {
+  color: $downText;
+}
+
+.site-list__search:hover,
+.site-list__search:focus {
+  fill: #63d1bb;
+}
+
+.site-list__search:active {
+  fill: #d0f1ea;
+}
+
+.site-list__item--logo:hover,
+.site-list__item--logo:focus {
+  fill: $hoverText;
+}
+
+.site-list__item--logo:active {
+  fill: $downText;
 }

@@ -90,3 +90,48 @@
 .range__toy {
   fill: #35a999;
 }
+
+.main-list__item a {
+  color: #000;
+}
+
+.main-list__item a:hover,
+.main-list__item a:focus {
+  color: $hoverText;
+}
+
+.main-list__item a:active {
+  color: $downText;
+}
+
+.main-list__item {
+  color: #444444;
+}
+
+.range__wrapper--left:hover,
+.range__wrapper--left:focus,
+.range__wrapper--left:active {
+  background-color: #59d5bc;
+}
+
+.range__wrapper--right:hover,
+.range__wrapper--right:focus,
+.range__wrapper--right:active {
+  background-color: #46c1ae;
+}
+
+.range__wrapper:hover .range__interior,
+.range__wrapper:focus .range__interior {
+  fill: #29a592;
+}
+
+.range__wrapper:hover .range__toy,
+.range__wrapper:focus .range__toy {
+  fill: #239f8e;
+}
+
+.range__wrapper:active .range__toy,
+.range__wrapper:active .range__item,
+.range__wrapper:active .range__interior {
+  opacity: 0.3;
+}
