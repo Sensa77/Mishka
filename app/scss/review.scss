@@ -56,10 +56,6 @@
   padding-top: 13px;
 }
 
-.review__arrow-left {
-  margin-right: 31px;
-}
-
 .review__container--bottom {
   display: flex;
   justify-content: space-between;
@@ -77,4 +73,32 @@
   background-repeat: no-repeat;
   margin-top: 162px;
   left: 0;
+}
+
+.review__arrow {
+  border: none;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 26px;
+
+  &--left {
+    background-image: url(../images/src/huge-arrow-left.png);
+    margin-right: 31px;
+  }
+
+  &--right {
+    background-image: url(../images/src/huge-arrow-right.svg.png);
+  }
+}
+
+.review__arrow--left:hover,
+.review__arrow--left:focus,
+.review__arrow--right:hover,
+.review__arrow--right:focus {
+  opacity: 0.6;
+}
+
+.review__arrow--left:active,
+.review__arrow--right:active {
+  opacity: 0.3;
 }

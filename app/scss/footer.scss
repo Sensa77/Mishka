@@ -35,3 +35,35 @@
 .footer__html-academy {
   fill: #63d1bb;
 }
+
+.footer__logo {
+  width: 102px;
+  height: 34px;
+}
+
+.footer__logo:hover,
+.footer__logo:focus {
+  fill: #46c1ae;
+}
+
+.footer__logo:active {
+  opacity: 0.3;
+}
+
+.footer__social-item:hover,
+.footer__social-item:focus {
+  fill: #46c1ae;
+}
+
+.footer__social-item:active {
+  opacity: 0.3;
+}
+
+.footer__html-academy:hover,
+.footer__html-academy:focus {
+  fill: #46c1ae;
+}
+
+.footer__html-academy:active {
+  opacity: 0.3;
+}

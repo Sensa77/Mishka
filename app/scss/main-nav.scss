@@ -109,3 +109,12 @@
 .site-list__item--logo:active {
   fill: $downText;
 }
+
+.site-list__item--basket:hover::before,
+.site-list__item--basket:focus::before {
+  background-image: url(../images/src/cart.copy.png);
+}
+
+.site-list__item--basket:active::before {
+  opacity: 0.3;
+}

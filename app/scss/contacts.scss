@@ -67,3 +67,12 @@
   height: 52px;
   margin-left: 175px;
 }
+
+.contacts__email a:hover,
+.contacts__email a:focus {
+  color: #46c1ae;
+}
+
+.contacts__email a:active {
+  opacity: 0.3;
+}
