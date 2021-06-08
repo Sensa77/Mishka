@@ -1,4 +1,6 @@
 .main-list {
+  width: 1250px;
+  margin: 0 auto;
   font-size: 15px;
   line-height: 24px;
   display: flex;
@@ -37,13 +39,14 @@
 
 .range {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   text-align: start;
   width: 1050px;
   position: absolute;
   bottom: 0;
   right: 50%;
   transform: translate(50%, 0);
+  align-self: stretch;
 }
 
 .range__wrapper {
@@ -53,7 +56,7 @@
   line-height: 30px;
   font-weight: bold;
   color: #fff;
-  width: 528px;
+  width: 525px;
   height: 119px;
   padding-left: 36px;
   padding-top: 28px;
@@ -79,7 +82,6 @@
   bottom: 0;
   width: 100%;
   height: 19px;
-  background-repeat: no-repeat;
   left: 0;
 }
 
@@ -112,6 +114,13 @@
 .range__wrapper--left:focus,
 .range__wrapper--left:active {
   background-color: #59d5bc;
+}
+
+.range__wrapper:hover,
+.range__wrapper:focus,
+.range__wrapper:active {
+  height: 124px;
+  transition: 0.5;
 }
 
 .range__wrapper--right:hover,

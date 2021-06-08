@@ -56,7 +56,7 @@ body {
   background-color: #fff;
   font-weight: normal;
   text-transform: none;
-  width: 1250px;
+  // width: 1250px;
 }
 
 *,
@@ -92,6 +92,8 @@ li {
 }
 
 .container {
+  width: 1250px;
+  margin: 0 auto;
   padding-left: 100px;
   padding-right: 100px;
 }
