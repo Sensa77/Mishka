@@ -46,6 +46,7 @@
 
 .site-list__search {
   fill: #d3d2d2;
+  transition: 0.5s;
 }
 
 .site-list__item:not(:last-child)::after {
@@ -88,6 +89,7 @@
 .site-list__item a:hover,
 .site-list__item a:focus {
   color: $hoverText;
+  transition: 0.5s;
 }
 
 .site-list__item a:active {
@@ -97,6 +99,8 @@
 .site-list__search:hover,
 .site-list__search:focus {
   fill: #63d1bb;
+  transition: 0.5s;
+  transform: rotateY(180deg);
 }
 
 .site-list__search:active {
@@ -106,6 +110,7 @@
 .site-list__item--logo:hover,
 .site-list__item--logo:focus {
   fill: $hoverText;
+  transition: 0.5s;
 }
 
 .site-list__item--logo:active {
@@ -115,6 +120,7 @@
 .site-list__item--basket:hover::before,
 .site-list__item--basket:focus::before {
   background-image: url(../images/src/cart.copy.png);
+  transition: 0.5s;
 }
 
 .site-list__item--basket:active::before {

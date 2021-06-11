@@ -100,6 +100,7 @@
 .main-list__item a:hover,
 .main-list__item a:focus {
   color: $hoverText;
+  transition: 0.5s;
 }
 
 .main-list__item a:active {
@@ -114,19 +115,21 @@
 .range__wrapper--left:focus,
 .range__wrapper--left:active {
   background-color: #59d5bc;
+  transition: 0.5s;
 }
 
 .range__wrapper:hover,
 .range__wrapper:focus,
 .range__wrapper:active {
   height: 124px;
-  transition: 0.5;
+  transition: 0.5s;
 }
 
 .range__wrapper--right:hover,
 .range__wrapper--right:focus,
 .range__wrapper--right:active {
   background-color: #46c1ae;
+  transition: 0.5s;
 }
 
 .range__wrapper:hover .range__interior,

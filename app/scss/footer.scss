@@ -47,6 +47,7 @@
 .footer__logo:hover,
 .footer__logo:focus {
   fill: #46c1ae;
+  transition: 0.5s;
 }
 
 .footer__logo:active {
@@ -55,6 +56,7 @@
 
 .footer__social-item:hover,
 .footer__social-item:focus {
+  transition: 0.3s;
   fill: #46c1ae;
 }
 
@@ -64,6 +66,7 @@
 
 .footer__html-academy:hover,
 .footer__html-academy:focus {
+  transition: 0.3s;
   fill: #46c1ae;
 }
 
