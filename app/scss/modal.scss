@@ -1,0 +1,62 @@
+.modal {
+  position: fixed;
+  height: 336px;
+  width: 566px;
+  background-color: #fff;
+  transform: translate(50%, 0);
+  left: 15%;
+  bottom: 30%;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27);
+}
+
+.modal__title {
+  font-size: 30px;
+  line-height: 57px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 0;
+  padding-top: 35px;
+}
+
+.modal__description {
+  display: block;
+  color: #444444;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.modal__button-wp {
+  display: flex;
+  width: 350px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 31px;
+}
+
+.modal__button-size {
+  width: 112px;
+  height: 52px;
+  background-color: #fff;
+  border: 2px solid #ececec;
+  color: #444444;
+}
+
+.modal__button {
+  width: 350px;
+  height: 52px;
+  background-color: #63d1bb;
+  color: #fff;
+  border: none;
+}
+
+.modal__button-size:hover,
+.modal__button-size:focus {
+  border-color: #c7c7c7;
+}
+
+.modal__button-size:active {
+  border-color: #62d1ba;
+}
