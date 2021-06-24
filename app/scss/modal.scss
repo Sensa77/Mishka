@@ -1,10 +1,21 @@
+.modal-wrapper {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .modal {
   position: fixed;
   height: 336px;
   width: 566px;
   background-color: #fff;
   transform: translate(50%, 0);
-  left: 15%;
+  left: 20%;
   bottom: 30%;
   -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27);
   -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27);
@@ -34,14 +45,7 @@
   margin: 0 auto;
   justify-content: space-between;
   margin-bottom: 31px;
-}
-
-.modal__button-size {
-  width: 112px;
   height: 52px;
-  background-color: #fff;
-  border: 2px solid #ececec;
-  color: #444444;
 }
 
 .modal__button {
@@ -52,11 +56,60 @@
   border: none;
 }
 
-.modal__button-size:hover,
-.modal__button-size:focus {
+.radio:hover::after,
+.radio:focus::after {
   border-color: #c7c7c7;
 }
 
-.modal__button-size:active {
+.modal__button-size:active,
+.radio:checked::after {
   border-color: #62d1ba;
+}
+
+.radio {
+  appearance: none;
+  display: inline-block;
+  min-width: 112px;
+}
+
+.radio::after {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 112px;
+  height: 52px;
+  background-color: inherit;
+  border: 2px solid #ececec;
+}
+
+.radio--s::after {
+  content: "S";
+}
+
+.radio--m::after {
+  content: "M";
+}
+
+.radio--l::after {
+  content: "L";
+}
+
+.modal__button-size {
+  position: relative;
+  text-transform: uppercase;
+  color: #444444;
+  font-weight: bold;
+  align-self: center;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
